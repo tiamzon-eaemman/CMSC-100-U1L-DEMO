@@ -1,3 +1,4 @@
+import utils.session
 import os
 
 
@@ -32,7 +33,7 @@ def addNumbers(a, b):
         return a + b
 
     else:
-        return -1
+        return
 
 
 main()
