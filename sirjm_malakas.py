@@ -1,10 +1,12 @@
 import os
 
+
 def showMenu():
     print("[1] Give a lecture")
     print("[2] Hush the class")
     print("[0] Say Goodbye")
     return input("Enter choice: ")
+
 
 def main():
     while True:
@@ -22,5 +24,10 @@ def main():
         else:
             os.system("clear||cls")
             print("Please schedule a consultation.")
+
+
+def addNumbers(a, b):
+    return a + b
+
 
 main()
